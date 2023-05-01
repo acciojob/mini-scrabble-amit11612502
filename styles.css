@@ -1,10 +1,10 @@
 
 /* Your CSS Code here. */
-let evaluatedText= document.getElementById("evaluatedText");
-let letterCount = document.getElementById("letterCount");
+let evaluated= document.getElementById("evaluatedText");
+let letter = document.getElementById("letterCount");
 
-evaluatedText.addEventListener('input', () =>{
+evaluated.addEventListener('input', () =>{
 	let str = evaluatedText.value;
-letterCount.innerHTML= `${str.length}`;
+letter.innerHTML= `${str.length}`;
 
 });
